@@ -1,15 +1,15 @@
 class LauncherSettings {
-    crashAssistance!: boolean;
-    enableAdvanced!: boolean;
-    enableAnalytics!: boolean;
-    enableHistorical!: boolean;
-    enableReleases!: boolean;
-    enableSnapshots!: boolean;
-    keepLauncherOpen!: boolean;
-    profileSorting!: string;
-    showGameLog!: boolean;
-    showMenu!: boolean;
-    soundOn!: boolean;
+    crashAssistance?: boolean;
+    enableAdvanced?: boolean;
+    enableAnalytics?: boolean;
+    enableHistorical?: boolean;
+    enableReleases?: boolean;
+    enableSnapshots?: boolean;
+    keepLauncherOpen?: boolean;
+    profileSorting?: string;
+    showGameLog?: boolean;
+    showMenu?: boolean;
+    soundOn?: boolean;
 
     toString() {
         return "LauncherSettings(" +

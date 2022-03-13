@@ -2,10 +2,10 @@ import MinecraftProfile from './MinecraftProfile'
 import LauncherSettings from './LauncherSettings'
 
 export class LauncherProfiles {
-    profiles!: { [index: string]: MinecraftProfile; };
-    settings!: LauncherSettings;
-    version!: number;
-    selectedProfile!: string;
+    profiles?: { [index: string]: MinecraftProfile; };
+    settings?: LauncherSettings;
+    version?: number;
+    selectedProfile?: string;
 
     /* 
         Gets the LauncherProfile json.

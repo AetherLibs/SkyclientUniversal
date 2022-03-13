@@ -1,10 +1,10 @@
 class Actions {
-    method!: string;
-    document!: string;
-    icon!: string;
-    text!: string;
-    creator!: string;
-    link!: string;
+    method?: string;
+    document?: string;
+    icon?: string;
+    text?: string;
+    creator?: string;
+    link?: string;
 
     /* 
         Gets the method object.

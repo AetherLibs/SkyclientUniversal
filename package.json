@@ -1,6 +1,6 @@
 {
   "name": "SkyclientUniversal",
-  "version": "1.0.0-alpha1",
+  "version": "1.0.0",
   "description": "a very cool client (not feather client)",
   "main": "./dist/main.js",
   "repository": "https://github.com/AetherLibs/SkyclientUniversal.git",
@@ -24,6 +24,7 @@
     "@emotion/react": "^11.8.2",
     "@emotion/styled": "^11.8.1",
     "@mui/material": "^5.5.0",
+    "node-fetch": "^3.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },

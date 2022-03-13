@@ -1,13 +1,13 @@
 
 class MinecraftProfile {
 
-    gameDir!: string;
-    icon!: string;
-    javaArgs!: string;
-    lastUsed!: string;
-    lastVersionId!: string;
-    name!: string;
-    type!: string;
+    gameDir?: string;
+    icon?: string;
+    javaArgs?: string;
+    lastUsed?: string;
+    lastVersionId?: string;
+    name?: string;
+    type?: string;
 
     public MinecraftProfile(gameDir: string, icon: string, javaArgs: string, lastUsed: string, lastVersionId: string, name: string, type: string) {
         this.gameDir = gameDir;
